@@ -1,0 +1,28 @@
+.banner-img-1{
+    background-image: url(../resource/image/carousel/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.banner-img-2{
+    background-image: url(../resource/image/carousel/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.banner-img-3{
+    background-image: url(../resource/image/carousel/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.clients-img{
+    width: 170px;
+  
+   
+}

@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- css links -->
+    <link rel="stylesheet" href="./style/style.css">
+    <!-- font awesome cnd  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- boothstrap css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm  container">
+            <div class="container-fluid">
+                <h1 class=" fw-bold display-3 text-primary"> Reve<span class="text-secondary">al</span></h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">feedback</a></li>
+                                <li><a class="dropdown-item" href="#">Complain Box</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ">Login</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="banner-img-1  d-flex justify-content-center align-items-center">
+                        <div class="text-center">
+                            <h1 class="fw-bold display-2 text-primary">Making <span
+                                    class="text-success text-decoration-underline">Your ideas</span><br> happen!</h1>
+                            <p class="fw-bold text-secondary">The most informative blockchain news source . Publishing
+                                multiple articles and videos daily.</p>
+                            <button class="btn btn-primary px-4">Get starts</button>
+                            <button class="btn btn-success px-4">Ours projects</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="banner-img-2  d-flex justify-content-center align-items-center">
+                        <div class="text-center">
+                            <h1 class="fw-bold display-2 text-primary">Making <span
+                                    class="text-success text-decoration-underline">Your ideas</span><br> happen!</h1>
+                            <p class="fw-bold text-secondary">The most informative blockchain news source . Publishing
+                                multiple articles and videos daily.</p>
+                            <button class="btn btn-primary px-4">Get starts</button>
+                            <button class="btn btn-success px-4">Ours projects</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="banner-img-3 d-flex justify-content-center align-items-center">
+                        <div class="text-center">
+                            <h1 class="fw-bold display-2 text-primary">Making <span
+                                    class="text-success text-decoration-underline">Your ideas</span><br> happen!</h1>
+                            <p class="fw-bold text-secondary">The most informative blockchain news source . Publishing
+                                multiple articles and videos daily.</p>
+                            <button class="btn btn-primary px-4">Get starts</button>
+                            <button class="btn btn-success px-4">Ours projects</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <main>
+        <section>
+            <div class="container my-5 py-5 ">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img class="w-100 image-fluid" src="./resource/image/about-img.jpg" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h1 class="fw-bold text-primary">Who are you</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero harum, ipsum numquam
+                            inventore nesciunt sunt magni ipsa. Nobis, earum autem.</p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sapiente. Pariatur
+                                consequatur eveniet nesciunt fuga.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- our services section  -->
+        <section class="container">
+            <h1>Services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quod nihil quas ducimus minus sed
+                assumenda soluta voluptatem! Quaerat aut voluptates, enim aperiam magnam eaque veniam i necessitatibus
+                blanditiis praesentium harum iste saepe expedit, a suscipit. error molestias assumenda possimus quo
+                repudiandae dolore qui minima rerum magnam!</p>
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="d-flex align-items-center shadow-lg p-3 my-3">
+                        <i class="fa-solid fa-brain fa-3x text-success"></i>
+                        <div class="ms-4">
+                            <h1>Degital Transformation</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nobis sint sit esse
+                                laboriosam, dolor ipsam voluptas voluptatem. Ducimus, sapiente.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center shadow-lg p-3 my-3 ">
+                        <i class="fa-solid fa-microchip  fa-3x text-success"></i>
+                        <div class="ms-4">
+                            <h1>IT Core problem solving</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nobis sint sit esse
+                                laboriosam, dolor ipsam voluptas voluptatem. Ducimus, sapiente.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="d-flex align-items-center shadow-lg p-3 my-3">
+                        <i class="fa-solid fa-swatchbook fa-3x text-success"></i>
+                        <div class="ms-4">
+                            <h1>UI/UX deginar</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nobis sint sit esse
+                                laboriosam, dolor ipsam voluptas voluptatem. Ducimus, sapiente.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center shadow-lg p-3 my-3">
+                        <i class="fa-solid fa-magnifying-glass-chart fa-3x text-success"></i>
+
+                        <div class="ms-4">
+                            <h1>Bussness Analysis</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nobis sint sit esse
+                                laboriosam, dolor ipsam voluptas voluptatem. Ducimus, sapiente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+<!-- clients section   -->
+        <section class="container my-5">
+            <h1>Clients</h1>
+            <p>Lorem ipsum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis est eaque provident
+                praesentium, natusdio. Illum excepturi illo aliquid ullam, quaerat repellendus laboriosam sint quibusdam
+                delectus quis. dolor sit amet consectetur adipisicing elit. Similique culpa reprehenderit eligendi in
+                reiciendis sint qui porro fuga sunt neque.</p>
+            <div class="d-flex flex-wrap gap-5 justify-content-between">
+                <img class=" clients-img" src="./resource/image/clients/client-1.png" alt="">
+                <img class=" clients-img" src="./resource/image/clients/client-2.png" alt="">
+                <img class=" clients-img" src="./resource/image/clients/client-3.png" alt="">
+                <img class=" clients-img" src="./resource/image/clients/client-4.png" alt="">
+                <img class=" clients-img" src="./resource/image/clients/client-5.png" alt="">
+                <img class=" clients-img" src="./resource/image/clients/client-6.png" alt="">
+            </div>
+        </section>
+<!-- action section -->
+        <section class="bg-primary">
+            <div class="container py-5 text-white">
+                <h1 class="fw-bold">Call to action</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, repellendus, non dolorem est
+                    assumenda porro animi unde ullam nostrum tempora fugit omnis numquam ducimus officia eos, quas saepe
+                    nam amet neque. Molestias ipsam delectus obcaecati nulla eum, et architecto recusandae.</p>
+                <button class="btn btn-outline-light ">call to action</button>
+            </div>
+        </section>
+<!-- card section starts heres  -->
+        <section class="container  my-5 py-5">
+            <h1 class="text-primary fw-bold">Our Team</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dolor corrupti ducimus expedita, eos illo
+                iure dolorum aut odit quo!</p>
+            <div class="d-flex flex-wrap align-items-center justify-content-center gap-5">
+                <div class="card my-4" style="width: 18rem;">
+                    <div class="text-center">
+                        <img src="./resource/image/team-1.jpg"
+                            class="card-img-top w-50 rounded-circle border border-primary mt-3 " alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                        <h3 class="card-title text-success my-2">Walter white</h3>
+                        <h5 class="card-subtitle fst-italic my-2">Chief Executive Officer</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+
+                <div class="card my-4" style="width: 18rem;">
+                    <div class="text-center">
+                        <img src="./resource/image/team-2.jpg"
+                            class="card-img-top w-50 rounded-circle border border-primary mt-3 " alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                        <h3 class="card-title text-success my-2">Sarah Jhison</h3>
+                        <h5 class="card-subtitle fst-italic my-2">Product manager</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+
+                </div>
+
+                <div class="card my-4" style="width: 18rem;">
+                    <div class="text-center">
+                        <img src="./resource/image/team-3.jpg"
+                            class="card-img-top w-50 rounded-circle border border-primary mt-3 " alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                        <h3 class="card-title text-success my-2">William Andarson</h3>
+                        <h5 class="card-subtitle fst-italic my-2">CTO</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+
+                </div>
+
+                <div class="card my-4" style="width: 18rem;">
+                    <div class="text-center">
+                        <img src="./resource/image/team-4.jpg"
+                            class="card-img-top w-50 rounded-circle border border-primary mt-3 " alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                        <h3 class="card-title text-success my-2">Amanda jarah</h3>
+                        <h5 class="card-subtitle fst-italic my-2">accounter</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- contact us section  -->
+        <section class="container  my-5 py-5">
+            <h1 class="text-primary fw-bold">Contact Us</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique perspiciatis sunt pariatur tempore
+                maxime quisquam numquam perferendis, modi culpa corporis.</p>
+            <div class="row">
+                <div class="col-md-4 ">
+                    <div class="d-flex align-items-center gap-3">
+                        <i class="fa-solid fa-phone fa-2x text-success"></i>
+                        <div>
+                            <h4 class="text-success">Phone Number</h4>
+                            <h5 class="text-primary">+7877363 344</h5>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center my-2 gap-3">
+                        <i class="fa-solid fa-envelope fa-2x text-success"></i>
+                        <div>
+                            <h4 class="text-success">Email</h4>
+                            <h5 class="text-primary">info@gmail.com</h5>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center my-2 gap-3">
+                        <i class="fa-solid fa-location-dot fa-2x text-success"></i>
+                        <div>
+                            <h4 class="text-success">Phone Number</h4>
+                            <h5 class="text-primary">+7877363 344</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-6 my-3">
+                            <input type="text " placeholder="Your Name" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email " placeholder="Your Email@" class="form-control">
+                        </div>
+                    </div>
+                    <input type="text" class="form-control my-3" placeholder="Subject">
+                    <textarea class=" form-control" name="" id="" placeholder="Text a massage"
+                        style="resize: none ; height: 120px;"></textarea>
+                    <input type="submit" value="Submit " class="bg-success my-3 px-5 border border-0 py-2">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer section starts  -->
+    <footer class=" bg-primary">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-2 text-white">
+                    <h1 class="fw-bold">Reveal</h1>
+                    <p class="my-3">A108 Adam Street,New York,NY 535022, United States</p>
+                    <p class="my-3">Phone: +0088213513</p>
+                    <p class="my-3">Email: info@gmail.com</p>
+                </div>
+                <div class="col-md-2 text-white">
+                    <h4>useful links</h4>
+                    <p> <a class="my-3 text-white text-decoration-none" href="">Home</a></p>
+                    <p> <a class="my-3 text-white text-decoration-none" href="">About</a></p>
+                    <p> <a class="my-3 text-white text-decoration-none" href="">Contact Us</a></p>
+                    <p> <a class="my-3 text-white text-decoration-none" href="">Login</a></p>
+
+                </div>
+                <div class="col-md-2 text-white">
+                    <h3>Our Services</h3>
+                    <p><a class="my-3 text-white text-decoration-none" href="">IT services</a></p>
+                    <p><a class="my-3 text-white text-decoration-none" href="">UX/UI Design</a></p>
+                    <p><a class="my-3 text-white text-decoration-none" href="">Analysis </a></p>
+                    <p> <a class="my-3 text-white text-decoration-none" href="">Maketing</a></p>
+                </div>
+                <div class="col-md-6 text-white">
+                    <h3>Join Our Newsletter</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque in repellendus velit repellat
+                        obcaecati dolores</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control bg-secondary" placeholder="Your Email@"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-light px-5" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-white fw-bold py-5">
+            <p><i class="fa-regular fa-copyright"></i>Copyright Reveal.All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <!-- boothstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+</html>
